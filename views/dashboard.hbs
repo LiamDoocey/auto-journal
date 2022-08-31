@@ -1,0 +1,36 @@
+{{> menu}}
+
+<div id="dashWelcome">
+    <h1>Welcome to the dashboard.</h1>
+    <h3>Here is where you can browse through manufacturers and their cars.</h3>
+</div>
+
+<section class="ui segment">
+    {{#each Manufacturers}}
+    <a href="car/{{id}}">
+        <div class="ui centered link cards">    
+            <div class="card">
+                <div id="ManuLogo" class="image">
+                    <img src={{logo}}>
+                </div>
+                <div class="content">
+                    <div class="ui header">{{Manufacturer}}
+                        <div class="meta">
+                            <span id="est" class="right floated">est. {{est}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    {{!-- <a id="HeadLink" href="/dashboard/delManu/{{id}}"><i class=" black alternate trash icon delManubtn"></i></a> --}}
+    
+    <a href="/dashboard/delManu/{{id}}"></a><button id="delManubtn" class="ui red animated submit button">
+    <div class="visible content"><i class="black Alternate trash icon"></i></div>
+    <div class="hidden content">
+        Delete
+    </button></a>
+{{/each}}
+    {{> addManufacturer}}
+</section>
+    

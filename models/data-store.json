@@ -1,0 +1,18 @@
+{
+  "Data": [
+    {
+      "id": "f9b2d37d-2830-403b-92e7-6a9be22e9f26",
+      "Manufacturer": "Toyota",
+      "est": "1955",
+      "logo": "https://logos-world.net/wp-content/uploads/2020/05/Ferrari-Emblem.png",
+      "Cars": []
+    },
+    {
+      "id": "a1aa2bde-205b-40a9-9224-4343e406e958",
+      "Manufacturer": "Toyota",
+      "est": "1955",
+      "logo": "https://t1-client.toyota-europe.com/images/toyota-logo.jpg",
+      "Cars": []
+    }
+  ]
+}

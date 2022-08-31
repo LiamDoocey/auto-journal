@@ -1,0 +1,130 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.ui.container{
+    width: 100%;
+}
+
+.Header {
+    text-align: center;
+    padding: 20px;
+    background: #000000;
+    color: white;
+    margin: 0 auto;
+}
+
+.Welcome {
+    text-align: center;
+    padding-top: 175px;
+}
+
+.ui.form {
+    width: 25%;
+    margin: 0 auto;
+}
+
+#Reg{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 90.5%;
+}
+
+#dashWelcome{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1em;
+}
+
+.heading{
+    padding: 0;
+    margin: 0;
+}
+
+.ui.compact.menu{
+    margin: 0 auto;
+    position: absolute;
+    top: 34px;
+    right: 0;
+    background-color: black;
+}
+
+#DropMenu{
+    background-color: black;
+}
+
+
+
+.list.icon{
+    color: white;
+}
+
+ .star.icon{
+    color: yellow;
+ }
+
+ .logout.icon{
+    color: red;
+ }
+
+ .ui.centered.link.cards, .ui.link.cards{
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 1em;
+ }
+
+ .ui.link.card{
+    position: relative;
+    left: 15%;
+ }
+
+ #HeadLink, #HeadLink :hover, #HeadLink :active, #HeadLink :visited {
+    color: white;
+ }
+
+ #ManuHead{
+    text-decoration: underline;
+    padding-bottom: 2em;
+ }
+
+ #est{
+    font-size: smaller;
+ }
+
+ #addCarForm{
+    position: fixed;
+    left: 60%;
+    bottom: 20%;
+    outline: auto;
+    outline-offset: 2em;
+ }
+
+ .black.alternate.trash.icon{
+    position: relative;
+    left: 25%;
+ }
+
+ #errorPass{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    color: red;
+    visibility: hidden;
+ }
+
+ .ui.red.animated.submit.button{
+    position: relative;
+    left: 50%;
+    top: 0.5em;
+    transform: translate(-50%, -50%);
+
+ }

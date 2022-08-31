@@ -1,0 +1,23 @@
+{{#each Car.Cars}}
+<div class="ui link card">
+  <div class="image">
+    <img src={{picture}}>
+  </div>
+  <div class="content">
+    <H2 class="ui header">{{Model}}</H2>
+    <div class="meta">
+      <span class="date">Model Year: {{Year}}</span>
+    </div>
+    <div class="description">
+      Price: {{Price}}<br>
+      Engine: {{Engine}}<br>
+      Horsepower: {{Horsepower}}<br>
+      Top speed: {{Topspeed}}<br>
+      0 - 60mph: {{zertosixty}}
+    </div>
+  </div>
+  <div class="extra content">
+    <a class="delcarbtn" href="/car/{{../Car.id}}/delCar/{{id}}"><i class="black alternate trash icon"></i> Delete </a>
+  </div>
+</div>
+{{/each}}

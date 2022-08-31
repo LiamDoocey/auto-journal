@@ -1,0 +1,21 @@
+<section class="ui container">
+         <H2 class="Welcome">Please Log in.</H2>
+         <P id="errorPass">Username or password incorrect</P>
+         <form id="loginForm" class="ui form" action="/authenticate" method="POST">
+            <div class="field">
+               <label>Username</label>
+               <input type="text" name="username" placeholder="Username">
+            </div>
+            <div class="field">
+               <label>Password</label>
+               <input type="password" name="password" placeholder="Password">
+            </div>
+            <button class="ui animated submit button">
+               <div class="visible content">Login</div>
+               <div class="hidden content">
+                  <i class="right arrow icon"></i>
+               </button>
+            </div>
+         </form>
+         <p id="Reg">Don't have an account? Click <a href="/signup">here</a> to sign up!</p>
+      </section>
